@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/table"
+android:background="@drawable/bgz"
+    >
+    <WebView
+        android:id="@+id/gif"
+        android:layout_height="match_parent" android:layout_width="match_parent"
+android:scaleX="1.3"
+        android:scaleY="1.7"
+        android:layoutMode="clipBounds"
+        android:layout_gravity="center"
+        android:visibility="gone"/>
+    <TableRow
+        android:id="@+id/tbr1"
+        android:layout_weight="1
+"
+        android:layout_margin="10dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+
+        <Button
+            android:layout_margin="10dp"
+
+            android:onClick="onClick"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif"
+
+
+            android:layout_weight="1"
+           android:background="@drawable/shape"
+            android:id="@+id/one"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+             />
+
+        <Button
+            android:layout_margin="10dp"
+
+            android:background="@drawable/shape"
+android:onClick="onClick"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif"
+
+            android:layout_weight="1"
+            android:id="@+id/two"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+             />
+
+        <Button
+            android:layout_margin="10dp"
+
+            android:background="@drawable/shape"
+            android:onClick="onClick"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif"
+
+            android:layout_weight="1"
+            android:id="@+id/three"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+             />
+    </TableRow>
+    <TableRow
+        android:layout_margin="10dp"
+android:id="@+id/tbr2"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+
+        <Button
+            android:layout_margin="10dp"
+
+            android:background="@drawable/shape"
+            android:onClick="onClick"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif"
+
+            android:layout_weight="1"
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+             />
+
+        <Button
+            android:layout_margin="10dp"
+
+            android:textStyle="bold"
+            android:fontFamily="sans-serif"
+
+            android:onClick="onClick"
+            android:background="@drawable/shape"
+            android:layout_weight="1"
+            android:id="@+id/button5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+             />
+
+        <Button
+            android:layout_margin="10dp"
+
+            android:textStyle="bold"
+            android:fontFamily="sans-serif"
+
+            android:onClick="onClick"
+            android:background="@drawable/shape"
+            android:layout_weight="1"
+            android:id="@+id/button6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+             />
+    </TableRow>
+    <TableRow
+android:id="@+id/tbr3"
+        android:layout_weight="1 "
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+
+        >
+
+
+        <Button
+            android:layout_margin="10dp"
+            android:background="@drawable/shape"
+            android:onClick="onClick"
+android:textStyle="bold"
+
+
+            android:layout_weight="1"
+            android:fontFamily="sans-serif"
+            android:id="@+id/button7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+             />
+
+        <Button
+            android:layout_margin="10dp"
+
+            android:background="@drawable/shape"
+            android:onClick="onClick"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif"
+
+            android:layout_weight="1"
+            android:id="@+id/button8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+             />
+
+        <Button
+            android:layout_margin="10dp"
+
+            android:background="@drawable/shape"
+            android:onClick="onClick"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif"
+
+            android:layout_weight="1"
+            android:id="@+id/button9"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+             />
+    </TableRow>
+</TableLayout>
